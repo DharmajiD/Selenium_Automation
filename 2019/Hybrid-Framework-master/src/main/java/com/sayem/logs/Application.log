@@ -1,349 +1,114 @@
-06/26/2019 09:11:00 DEBUG devpinoyLogger:70 - Hello
-06/26/2019 09:11:00 DEBUG devpinoyLogger:71 - Properties loaded. Starting testing
-06/26/2019 09:11:00 DEBUG devpinoyLogger:77 - Intialize Suite xlsx
-06/26/2019 09:11:02 DEBUG devpinoyLogger:83 - Check out -- Y
-06/26/2019 09:11:02 DEBUG devpinoyLogger:88 - ******Executing the Suite******Check out
-06/26/2019 09:11:02 DEBUG devpinoyLogger:92 - ShoppingCart -- Y
-06/26/2019 09:11:02 DEBUG devpinoyLogger:96 - Executing the test case -> ShoppingCart
-06/26/2019 09:11:02 DEBUG devpinoyLogger:102 - Iteration number 1
-06/26/2019 09:11:02 DEBUG devpinoyLogger:144 - openBrowser
-06/26/2019 09:11:02 DEBUG devpinoyLogger:40 - Opening browser
-06/26/2019 09:11:31 DEBUG devpinoyLogger:152 - PASS
-06/26/2019 09:11:31 DEBUG devpinoyLogger:144 - navigate
-06/26/2019 09:11:31 DEBUG devpinoyLogger:56 - Navigating to URL
-06/26/2019 09:11:58 DEBUG devpinoyLogger:152 - PASS
-06/26/2019 09:11:58 DEBUG devpinoyLogger:144 - writeInInputCss
-06/26/2019 09:11:58 DEBUG devpinoyLogger:339 - Writing in text box
-06/26/2019 09:12:18 DEBUG devpinoyLogger:152 - FAIL Unable to write no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+06/26/2019 10:45:23 DEBUG devpinoyLogger:70 - Hello
+06/26/2019 10:45:23 DEBUG devpinoyLogger:71 - Properties loaded. Starting testing
+06/26/2019 10:45:23 DEBUG devpinoyLogger:77 - Intialize Suite xlsx
+06/26/2019 10:45:24 DEBUG devpinoyLogger:83 - Check out -- Y
+06/26/2019 10:45:24 DEBUG devpinoyLogger:88 - ******Executing the Suite******Check out
+06/26/2019 10:45:25 DEBUG devpinoyLogger:92 - ShoppingCart -- Y
+06/26/2019 10:45:25 DEBUG devpinoyLogger:96 - Executing the test case -> ShoppingCart
+06/26/2019 10:45:25 DEBUG devpinoyLogger:102 - Iteration number 1
+06/26/2019 10:45:25 DEBUG devpinoyLogger:144 - openBrowser
+06/26/2019 10:45:25 DEBUG devpinoyLogger:40 - Opening browser
+06/26/2019 10:45:29 DEBUG devpinoyLogger:152 - PASS
+06/26/2019 10:45:29 DEBUG devpinoyLogger:144 - navigate
+06/26/2019 10:45:29 DEBUG devpinoyLogger:56 - Navigating to URL
+06/26/2019 10:45:34 DEBUG devpinoyLogger:152 - PASS
+06/26/2019 10:45:34 DEBUG devpinoyLogger:144 - writeInInputCss
+06/26/2019 10:45:34 DEBUG devpinoyLogger:339 - Writing in text box
+06/26/2019 10:45:54 DEBUG devpinoyLogger:152 - FAIL Unable to write no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
   (Session info: chrome=75.0.3770.100)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DHARMAJI-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fea2f8c28ca25a4ce8569f29b8b157ac
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: df64d7df2a6a8f1e8116a3c576f59355
 *** Element info: {Using=css selector, value=#email}
-06/26/2019 09:12:18 DEBUG devpinoyLogger:144 - writeInInputCss
-06/26/2019 09:12:18 DEBUG devpinoyLogger:339 - Writing in text box
-06/26/2019 09:12:38 DEBUG devpinoyLogger:152 - FAIL Unable to write no such element: Unable to locate element: {"method":"css selector","selector":"#pass"}
+06/26/2019 10:45:54 DEBUG devpinoyLogger:144 - writeInInputCss
+06/26/2019 10:45:54 DEBUG devpinoyLogger:339 - Writing in text box
+06/26/2019 10:46:14 DEBUG devpinoyLogger:152 - FAIL Unable to write no such element: Unable to locate element: {"method":"css selector","selector":"#pass"}
   (Session info: chrome=75.0.3770.100)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DHARMAJI-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fea2f8c28ca25a4ce8569f29b8b157ac
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: df64d7df2a6a8f1e8116a3c576f59355
 *** Element info: {Using=css selector, value=#pass}
-06/26/2019 09:12:38 DEBUG devpinoyLogger:144 - clickButtonCss
-06/26/2019 09:12:38 DEBUG devpinoyLogger:128 - Clicking on Button
-06/26/2019 09:12:58 DEBUG devpinoyLogger:152 - FAIL -- Not able to click on Buttonno such element: Unable to locate element: {"method":"css selector","selector":"#submit-button"}
+06/26/2019 10:46:14 DEBUG devpinoyLogger:144 - clickButtonCss
+06/26/2019 10:46:14 DEBUG devpinoyLogger:128 - Clicking on Button
+06/26/2019 10:46:34 DEBUG devpinoyLogger:152 - FAIL -- Not able to click on Buttonno such element: Unable to locate element: {"method":"css selector","selector":"#submit-button"}
   (Session info: chrome=75.0.3770.100)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DHARMAJI-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fea2f8c28ca25a4ce8569f29b8b157ac
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: df64d7df2a6a8f1e8116a3c576f59355
 *** Element info: {Using=css selector, value=#submit-button}
-06/26/2019 09:12:58 DEBUG devpinoyLogger:144 - selectRandomEvent
-06/26/2019 09:12:58 DEBUG devpinoyLogger:792 - Selecting Random event
-06/26/2019 09:13:18 DEBUG devpinoyLogger:152 - FAIL - Could not select from list. bound must be positive
-06/26/2019 09:13:18 DEBUG devpinoyLogger:144 - selectRandomProduct
-06/26/2019 09:13:18 DEBUG devpinoyLogger:836 - Selecting Random Product
-06/26/2019 09:13:38 DEBUG devpinoyLogger:152 - FAIL - Could not select from list. bound must be positive
-06/26/2019 09:13:38 DEBUG devpinoyLogger:144 - selectRandomSize
-06/26/2019 09:13:38 DEBUG devpinoyLogger:867 - Selecting Random Size
-06/26/2019 09:13:58 DEBUG devpinoyLogger:152 - FAIL - Could not select from list. no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='attribute169']"}
+06/26/2019 10:46:34 DEBUG devpinoyLogger:144 - selectRandomEvent
+06/26/2019 10:46:34 DEBUG devpinoyLogger:792 - Selecting Random event
+06/26/2019 10:46:54 DEBUG devpinoyLogger:152 - FAIL - Could not select from list. bound must be positive
+06/26/2019 10:46:54 DEBUG devpinoyLogger:144 - selectRandomProduct
+06/26/2019 10:46:54 DEBUG devpinoyLogger:836 - Selecting Random Product
+06/26/2019 10:47:14 DEBUG devpinoyLogger:152 - FAIL - Could not select from list. bound must be positive
+06/26/2019 10:47:14 DEBUG devpinoyLogger:144 - selectRandomSize
+06/26/2019 10:47:14 DEBUG devpinoyLogger:867 - Selecting Random Size
+06/26/2019 10:47:34 DEBUG devpinoyLogger:152 - FAIL - Could not select from list. no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='attribute169']"}
   (Session info: chrome=75.0.3770.100)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DHARMAJI-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fea2f8c28ca25a4ce8569f29b8b157ac
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: df64d7df2a6a8f1e8116a3c576f59355
 *** Element info: {Using=xpath, value=//*[@id='attribute169']}
-06/26/2019 09:13:58 DEBUG devpinoyLogger:144 - clearInputText
-06/26/2019 09:13:58 DEBUG devpinoyLogger:909 - Clearing input text box
-06/26/2019 09:13:58 DEBUG devpinoyLogger:152 - FAIL Unable to clear input text Cannot find elements when the XPath is null.
-06/26/2019 09:13:58 DEBUG devpinoyLogger:144 - writeInInput
-06/26/2019 09:13:58 DEBUG devpinoyLogger:326 - Writing in text box
-06/26/2019 09:13:58 DEBUG devpinoyLogger:152 - FAIL Unable to write Cannot find elements when the XPath is null.
-06/26/2019 09:13:58 DEBUG devpinoyLogger:144 - clickButton
-06/26/2019 09:13:58 DEBUG devpinoyLogger:116 - Clicking on Button
-06/26/2019 09:13:58 DEBUG devpinoyLogger:152 - PASS
-06/26/2019 09:13:58 DEBUG devpinoyLogger:144 - clickButton
-06/26/2019 09:13:58 DEBUG devpinoyLogger:116 - Clicking on Button
-06/26/2019 09:14:18 DEBUG devpinoyLogger:152 - FAIL -- Not able to click on Buttonno such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='items-info-wrapper']/div[2]/div[2]/a"}
+06/26/2019 10:47:34 DEBUG devpinoyLogger:144 - clearInputText
+06/26/2019 10:47:34 DEBUG devpinoyLogger:909 - Clearing input text box
+06/26/2019 10:47:34 DEBUG devpinoyLogger:152 - FAIL Unable to clear input text Cannot find elements when the XPath is null.
+06/26/2019 10:47:34 DEBUG devpinoyLogger:144 - writeInInput
+06/26/2019 10:47:34 DEBUG devpinoyLogger:326 - Writing in text box
+06/26/2019 10:47:34 DEBUG devpinoyLogger:152 - FAIL Unable to write Cannot find elements when the XPath is null.
+06/26/2019 10:47:34 DEBUG devpinoyLogger:144 - clickButton
+06/26/2019 10:47:34 DEBUG devpinoyLogger:116 - Clicking on Button
+06/26/2019 10:47:35 DEBUG devpinoyLogger:152 - PASS
+06/26/2019 10:47:35 DEBUG devpinoyLogger:144 - clickButton
+06/26/2019 10:47:35 DEBUG devpinoyLogger:116 - Clicking on Button
+06/26/2019 10:47:55 DEBUG devpinoyLogger:152 - FAIL -- Not able to click on Buttonno such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='items-info-wrapper']/div[2]/div[2]/a"}
   (Session info: chrome=75.0.3770.100)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DHARMAJI-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fea2f8c28ca25a4ce8569f29b8b157ac
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: df64d7df2a6a8f1e8116a3c576f59355
 *** Element info: {Using=xpath, value=//*[@id='items-info-wrapper']/div[2]/div[2]/a}
-06/26/2019 09:14:18 DEBUG devpinoyLogger:144 - pause
-06/26/2019 09:14:28 DEBUG devpinoyLogger:152 - PASS
-06/26/2019 09:14:28 DEBUG devpinoyLogger:144 - closeBrowser
-06/26/2019 09:14:28 DEBUG devpinoyLogger:460 - Closing the browser
-06/26/2019 09:14:31 DEBUG devpinoyLogger:152 - PASS
-06/26/2019 09:14:43 DEBUG devpinoyLogger:102 - Iteration number 2
-06/26/2019 09:14:46 DEBUG devpinoyLogger:102 - Iteration number 3
-06/26/2019 09:14:48 DEBUG devpinoyLogger:102 - Iteration number 4
-06/26/2019 09:14:50 DEBUG devpinoyLogger:102 - Iteration number 5
-06/26/2019 09:14:53 DEBUG devpinoyLogger:102 - Iteration number 6
-06/26/2019 09:14:54 DEBUG devpinoyLogger:102 - Iteration number 7
-06/26/2019 09:14:56 DEBUG devpinoyLogger:102 - Iteration number 8
-06/26/2019 09:14:58 DEBUG devpinoyLogger:102 - Iteration number 9
-06/26/2019 09:15:00 DEBUG devpinoyLogger:102 - Iteration number 10
-06/26/2019 09:15:01 DEBUG devpinoyLogger:92 - RemoveItem -- Y
-06/26/2019 09:15:01 DEBUG devpinoyLogger:96 - Executing the test case -> RemoveItem
-06/26/2019 09:15:01 DEBUG devpinoyLogger:102 - Iteration number 1
-06/26/2019 09:15:01 DEBUG devpinoyLogger:144 - openBrowser
-06/26/2019 09:15:01 DEBUG devpinoyLogger:40 - Opening browser
-06/26/2019 09:15:05 DEBUG devpinoyLogger:152 - PASS
-06/26/2019 09:15:05 DEBUG devpinoyLogger:144 - navigate
-06/26/2019 09:15:05 DEBUG devpinoyLogger:56 - Navigating to URL
-06/26/2019 09:15:16 DEBUG devpinoyLogger:152 - PASS
-06/26/2019 09:15:16 DEBUG devpinoyLogger:144 - writeInInputCss
-06/26/2019 09:15:16 DEBUG devpinoyLogger:339 - Writing in text box
-06/26/2019 09:15:36 DEBUG devpinoyLogger:152 - FAIL Unable to write no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
-  (Session info: chrome=75.0.3770.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DHARMAJI-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1206}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ce7c71541a48ef10305ace1259a7c44e
-*** Element info: {Using=css selector, value=#email}
-06/26/2019 09:15:36 DEBUG devpinoyLogger:144 - writeInInputCss
-06/26/2019 09:15:36 DEBUG devpinoyLogger:339 - Writing in text box
-06/26/2019 09:15:56 DEBUG devpinoyLogger:152 - FAIL Unable to write no such element: Unable to locate element: {"method":"css selector","selector":"#pass"}
-  (Session info: chrome=75.0.3770.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DHARMAJI-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1206}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ce7c71541a48ef10305ace1259a7c44e
-*** Element info: {Using=css selector, value=#pass}
-06/26/2019 09:15:56 DEBUG devpinoyLogger:144 - clickButtonCss
-06/26/2019 09:15:56 DEBUG devpinoyLogger:128 - Clicking on Button
-06/26/2019 09:16:16 DEBUG devpinoyLogger:152 - FAIL -- Not able to click on Buttonno such element: Unable to locate element: {"method":"css selector","selector":"#submit-button"}
-  (Session info: chrome=75.0.3770.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DHARMAJI-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1206}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ce7c71541a48ef10305ace1259a7c44e
-*** Element info: {Using=css selector, value=#submit-button}
-06/26/2019 09:16:16 DEBUG devpinoyLogger:144 - selectRandomEvent
-06/26/2019 09:16:16 DEBUG devpinoyLogger:792 - Selecting Random event
-06/26/2019 09:16:36 DEBUG devpinoyLogger:152 - FAIL - Could not select from list. bound must be positive
-06/26/2019 09:16:36 DEBUG devpinoyLogger:144 - selectRandomProduct
-06/26/2019 09:16:36 DEBUG devpinoyLogger:836 - Selecting Random Product
-06/26/2019 09:16:56 DEBUG devpinoyLogger:152 - FAIL - Could not select from list. bound must be positive
-06/26/2019 09:16:56 DEBUG devpinoyLogger:144 - selectRandomSize
-06/26/2019 09:16:56 DEBUG devpinoyLogger:867 - Selecting Random Size
-06/26/2019 09:17:16 DEBUG devpinoyLogger:152 - FAIL - Could not select from list. no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='attribute169']"}
-  (Session info: chrome=75.0.3770.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DHARMAJI-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1206}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ce7c71541a48ef10305ace1259a7c44e
-*** Element info: {Using=xpath, value=//*[@id='attribute169']}
-06/26/2019 09:17:16 DEBUG devpinoyLogger:144 - clearInputText_css
-06/26/2019 09:17:16 DEBUG devpinoyLogger:922 - Clearing input text box
-06/26/2019 09:17:36 DEBUG devpinoyLogger:152 - FAIL Unable to clear input text no such element: Unable to locate element: {"method":"css selector","selector":"#qty"}
-  (Session info: chrome=75.0.3770.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DHARMAJI-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1206}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ce7c71541a48ef10305ace1259a7c44e
-*** Element info: {Using=css selector, value=#qty}
-06/26/2019 09:17:36 DEBUG devpinoyLogger:144 - writeInInputCss
-06/26/2019 09:17:36 DEBUG devpinoyLogger:339 - Writing in text box
-06/26/2019 09:17:56 DEBUG devpinoyLogger:152 - FAIL Unable to write no such element: Unable to locate element: {"method":"css selector","selector":"#qty"}
-  (Session info: chrome=75.0.3770.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DHARMAJI-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1206}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ce7c71541a48ef10305ace1259a7c44e
-*** Element info: {Using=css selector, value=#qty}
-06/26/2019 09:17:56 DEBUG devpinoyLogger:144 - clickButton
-06/26/2019 09:17:56 DEBUG devpinoyLogger:116 - Clicking on Button
-06/26/2019 09:17:56 DEBUG devpinoyLogger:152 - PASS
-06/26/2019 09:17:56 DEBUG devpinoyLogger:144 - clickButton
-06/26/2019 09:17:56 DEBUG devpinoyLogger:116 - Clicking on Button
-06/26/2019 09:18:16 DEBUG devpinoyLogger:152 - FAIL -- Not able to click on Buttonno such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='items-info-wrapper']/div[2]/div[2]/a"}
-  (Session info: chrome=75.0.3770.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DHARMAJI-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1206}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ce7c71541a48ef10305ace1259a7c44e
-*** Element info: {Using=xpath, value=//*[@id='items-info-wrapper']/div[2]/div[2]/a}
-06/26/2019 09:18:16 DEBUG devpinoyLogger:144 - clickCss
-06/26/2019 09:18:16 DEBUG devpinoyLogger:419 - Clicking on any element
-06/26/2019 09:18:36 DEBUG devpinoyLogger:152 - FAIL Not able to click
-06/26/2019 09:18:36 DEBUG devpinoyLogger:144 - pause
-06/26/2019 09:18:46 DEBUG devpinoyLogger:152 - PASS
-06/26/2019 09:18:46 DEBUG devpinoyLogger:144 - closeBrowser
-06/26/2019 09:18:46 DEBUG devpinoyLogger:460 - Closing the browser
-06/26/2019 09:18:49 DEBUG devpinoyLogger:152 - PASS
-06/26/2019 09:18:57 DEBUG devpinoyLogger:102 - Iteration number 2
-06/26/2019 09:19:00 DEBUG devpinoyLogger:102 - Iteration number 3
-06/26/2019 09:19:01 DEBUG devpinoyLogger:102 - Iteration number 4
-06/26/2019 09:19:03 DEBUG devpinoyLogger:102 - Iteration number 5
-06/26/2019 09:19:05 DEBUG devpinoyLogger:102 - Iteration number 6
-06/26/2019 09:19:07 DEBUG devpinoyLogger:102 - Iteration number 7
-06/26/2019 09:19:08 DEBUG devpinoyLogger:102 - Iteration number 8
-06/26/2019 09:19:10 DEBUG devpinoyLogger:102 - Iteration number 9
-06/26/2019 09:19:12 DEBUG devpinoyLogger:102 - Iteration number 10
-06/26/2019 09:19:13 DEBUG devpinoyLogger:92 - CartQTY -- Y
-06/26/2019 09:19:13 DEBUG devpinoyLogger:96 - Executing the test case -> CartQTY
-06/26/2019 09:19:13 DEBUG devpinoyLogger:102 - Iteration number 1
-06/26/2019 09:19:24 DEBUG devpinoyLogger:102 - Iteration number 2
-06/26/2019 09:19:24 DEBUG devpinoyLogger:144 - openBrowser
-06/26/2019 09:19:24 DEBUG devpinoyLogger:40 - Opening browser
-06/26/2019 09:19:28 DEBUG devpinoyLogger:152 - PASS
-06/26/2019 09:19:28 DEBUG devpinoyLogger:144 - navigate
-06/26/2019 09:19:28 DEBUG devpinoyLogger:56 - Navigating to URL
-06/26/2019 09:19:38 DEBUG devpinoyLogger:152 - PASS
-06/26/2019 09:19:38 DEBUG devpinoyLogger:144 - writeInInputCss
-06/26/2019 09:19:38 DEBUG devpinoyLogger:339 - Writing in text box
-06/26/2019 09:19:58 DEBUG devpinoyLogger:152 - FAIL Unable to write no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
-  (Session info: chrome=75.0.3770.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DHARMAJI-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1281}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 710eb1465daddb996a9943082e938c85
-*** Element info: {Using=css selector, value=#email}
-06/26/2019 09:19:58 DEBUG devpinoyLogger:144 - writeInInputCss
-06/26/2019 09:19:58 DEBUG devpinoyLogger:339 - Writing in text box
-06/26/2019 09:20:18 DEBUG devpinoyLogger:152 - FAIL Unable to write no such element: Unable to locate element: {"method":"css selector","selector":"#pass"}
-  (Session info: chrome=75.0.3770.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DHARMAJI-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1281}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 710eb1465daddb996a9943082e938c85
-*** Element info: {Using=css selector, value=#pass}
-06/26/2019 09:20:18 DEBUG devpinoyLogger:144 - clickButtonCss
-06/26/2019 09:20:18 DEBUG devpinoyLogger:128 - Clicking on Button
-06/26/2019 09:20:38 DEBUG devpinoyLogger:152 - FAIL -- Not able to click on Buttonno such element: Unable to locate element: {"method":"css selector","selector":"#submit-button"}
-  (Session info: chrome=75.0.3770.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DHARMAJI-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1281}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 710eb1465daddb996a9943082e938c85
-*** Element info: {Using=css selector, value=#submit-button}
-06/26/2019 09:20:38 DEBUG devpinoyLogger:144 - selectRandomEvent
-06/26/2019 09:20:38 DEBUG devpinoyLogger:792 - Selecting Random event
-06/26/2019 09:20:58 DEBUG devpinoyLogger:152 - FAIL - Could not select from list. bound must be positive
-06/26/2019 09:20:58 DEBUG devpinoyLogger:144 - selectRandomProduct
-06/26/2019 09:20:58 DEBUG devpinoyLogger:836 - Selecting Random Product
-06/26/2019 09:21:18 DEBUG devpinoyLogger:152 - FAIL - Could not select from list. bound must be positive
-06/26/2019 09:21:18 DEBUG devpinoyLogger:144 - selectRandomSize
-06/26/2019 09:21:18 DEBUG devpinoyLogger:867 - Selecting Random Size
-06/26/2019 09:21:38 DEBUG devpinoyLogger:152 - FAIL - Could not select from list. no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='attribute169']"}
-  (Session info: chrome=75.0.3770.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DHARMAJI-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1281}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 710eb1465daddb996a9943082e938c85
-*** Element info: {Using=xpath, value=//*[@id='attribute169']}
-06/26/2019 09:21:38 DEBUG devpinoyLogger:144 - clearInputText_css
-06/26/2019 09:21:38 DEBUG devpinoyLogger:922 - Clearing input text box
-06/26/2019 09:21:58 DEBUG devpinoyLogger:152 - FAIL Unable to clear input text no such element: Unable to locate element: {"method":"css selector","selector":"#qty"}
-  (Session info: chrome=75.0.3770.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DHARMAJI-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1281}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 710eb1465daddb996a9943082e938c85
-*** Element info: {Using=css selector, value=#qty}
-06/26/2019 09:21:58 DEBUG devpinoyLogger:144 - writeInInputCss
-06/26/2019 09:21:58 DEBUG devpinoyLogger:339 - Writing in text box
-06/26/2019 09:22:18 DEBUG devpinoyLogger:152 - FAIL Unable to write no such element: Unable to locate element: {"method":"css selector","selector":"#qty"}
-  (Session info: chrome=75.0.3770.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DHARMAJI-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1281}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 710eb1465daddb996a9943082e938c85
-*** Element info: {Using=css selector, value=#qty}
-06/26/2019 09:22:18 DEBUG devpinoyLogger:144 - clickButton
-06/26/2019 09:22:18 DEBUG devpinoyLogger:116 - Clicking on Button
-06/26/2019 09:22:18 DEBUG devpinoyLogger:152 - PASS
-06/26/2019 09:22:18 DEBUG devpinoyLogger:144 - clickButton
-06/26/2019 09:22:18 DEBUG devpinoyLogger:116 - Clicking on Button
-06/26/2019 09:22:38 DEBUG devpinoyLogger:152 - FAIL -- Not able to click on Buttonno such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='items-info-wrapper']/div[2]/div[2]/a"}
-  (Session info: chrome=75.0.3770.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DHARMAJI-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1281}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 710eb1465daddb996a9943082e938c85
-*** Element info: {Using=xpath, value=//*[@id='items-info-wrapper']/div[2]/div[2]/a}
-06/26/2019 09:22:38 DEBUG devpinoyLogger:144 - clearInputText_css
-06/26/2019 09:22:38 DEBUG devpinoyLogger:922 - Clearing input text box
-06/26/2019 09:22:58 DEBUG devpinoyLogger:152 - FAIL Unable to clear input text no such element: Unable to locate element: {"method":"css selector","selector":".input-text.qty"}
-  (Session info: chrome=75.0.3770.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DHARMAJI-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1281}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 710eb1465daddb996a9943082e938c85
-*** Element info: {Using=css selector, value=.input-text.qty}
-06/26/2019 09:22:58 DEBUG devpinoyLogger:144 - writeInInputCss
-06/26/2019 09:22:58 DEBUG devpinoyLogger:339 - Writing in text box
-06/26/2019 09:23:19 DEBUG devpinoyLogger:152 - FAIL Unable to write no such element: Unable to locate element: {"method":"css selector","selector":".input-text.qty"}
-  (Session info: chrome=75.0.3770.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DHARMAJI-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1281}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 710eb1465daddb996a9943082e938c85
-*** Element info: {Using=css selector, value=.input-text.qty}
-06/26/2019 09:23:19 DEBUG devpinoyLogger:144 - clickButtonCss
-06/26/2019 09:23:19 DEBUG devpinoyLogger:128 - Clicking on Button
-06/26/2019 09:23:39 DEBUG devpinoyLogger:152 - FAIL -- Not able to click on Buttonno such element: Unable to locate element: {"method":"css selector","selector":".pull-right.btn.button"}
-  (Session info: chrome=75.0.3770.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DHARMAJI-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\Dharmaji\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1281}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 710eb1465daddb996a9943082e938c85
-*** Element info: {Using=css selector, value=.pull-right.btn.button}
-06/26/2019 09:23:39 DEBUG devpinoyLogger:144 - pause
-06/26/2019 09:23:42 DEBUG devpinoyLogger:152 - PASS
-06/26/2019 09:23:42 DEBUG devpinoyLogger:144 - closeBrowser
-06/26/2019 09:23:42 DEBUG devpinoyLogger:460 - Closing the browser
-06/26/2019 09:23:44 DEBUG devpinoyLogger:152 - PASS
-06/26/2019 09:23:48 DEBUG devpinoyLogger:102 - Iteration number 3
-06/26/2019 09:23:50 DEBUG devpinoyLogger:102 - Iteration number 4
-06/26/2019 09:23:52 DEBUG devpinoyLogger:102 - Iteration number 5
-06/26/2019 09:23:54 DEBUG devpinoyLogger:102 - Iteration number 6
-06/26/2019 09:23:56 DEBUG devpinoyLogger:102 - Iteration number 7
+06/26/2019 10:47:55 DEBUG devpinoyLogger:144 - pause
+06/26/2019 10:48:05 DEBUG devpinoyLogger:152 - PASS
+06/26/2019 10:48:05 DEBUG devpinoyLogger:144 - closeBrowser
+06/26/2019 10:48:05 DEBUG devpinoyLogger:460 - Closing the browser
+06/26/2019 10:48:07 DEBUG devpinoyLogger:152 - PASS
+06/26/2019 10:48:12 DEBUG devpinoyLogger:102 - Iteration number 2
+06/26/2019 10:48:18 DEBUG devpinoyLogger:102 - Iteration number 3
+06/26/2019 10:48:20 DEBUG devpinoyLogger:102 - Iteration number 4
+06/26/2019 10:48:22 DEBUG devpinoyLogger:102 - Iteration number 5
+06/26/2019 10:48:24 DEBUG devpinoyLogger:102 - Iteration number 6
+06/26/2019 10:48:25 DEBUG devpinoyLogger:102 - Iteration number 7
+06/26/2019 10:48:27 DEBUG devpinoyLogger:102 - Iteration number 8
+06/26/2019 10:48:29 DEBUG devpinoyLogger:102 - Iteration number 9
+06/26/2019 10:48:30 DEBUG devpinoyLogger:102 - Iteration number 10
+06/26/2019 10:48:32 DEBUG devpinoyLogger:92 - RemoveItem -- N
+06/26/2019 10:48:32 DEBUG devpinoyLogger:92 - CartQTY -- N
+06/26/2019 10:48:32 DEBUG devpinoyLogger:92 - Coupon -- N
+06/26/2019 10:48:32 DEBUG devpinoyLogger:92 - ContinueShopping -- N
+06/26/2019 10:48:32 DEBUG devpinoyLogger:92 - ShppingAddress -- N
+06/26/2019 10:48:32 DEBUG devpinoyLogger:92 - BillingAddress -- N
+06/26/2019 10:48:32 DEBUG devpinoyLogger:92 - Checkout -- N
+06/26/2019 10:48:32 DEBUG devpinoyLogger:92 - Payment -- N
+06/26/2019 10:48:32 DEBUG devpinoyLogger:92 - EditYourCart -- N
+06/26/2019 10:48:32 DEBUG devpinoyLogger:92 - OrderConfirm -- N
+06/26/2019 10:48:32 DEBUG devpinoyLogger:92 - OrderConfirmEmail -- N
+06/26/2019 10:48:32 DEBUG devpinoyLogger:92 - OrderCancelEmail -- N
+06/26/2019 10:48:32 DEBUG devpinoyLogger:83 - Links verification -- N
+06/26/2019 10:48:32 DEBUG devpinoyLogger:83 - Login functionality -- N
+06/26/2019 10:48:32 DEBUG devpinoyLogger:83 - My Account -- N
+06/26/2019 10:48:32 DEBUG devpinoyLogger:83 - Sales pages -- N
